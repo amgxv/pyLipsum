@@ -17,7 +17,11 @@ def paragraph():
 
 @app.route('/simple')
 def phrase():
-    return simple_chiquito()
+    return simple_chiquito('simple')
+
+@app.route('/simple/ext')
+def phrase_ext():
+    return simple_chiquito('extended')
 
 if __name__ == "__main__":
     app.run()

@@ -5,6 +5,5 @@ __pycache__/
 .directory
 venv/
 web.js
-Dockerfile
 .vscode/
 COMMIT_MESSAGE
